@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.boxing {
+  background-color: rgb(228, 229, 230);
+  height: 45rem;
+}
+.header {
+  padding-top: 20px;
+  font-size: 40px;
+  border-bottom: 3px blue solid;
+  width: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentBox {
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.contents {
+  padding: 2rem 0;
+  background-color: white;
+  margin-top: 3rem;
+}
+.contents img {
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  border-radius: 130px;
+  border-right: 10px blue solid;
+}
+
+.contents h3 {
+  font-size: 30px;
+  background-color: white;
+}
+.contents h2 {
+  margin-top: 1rem;
+  color: rgb(75, 151, 228);
+  background-color: white;
+}
+.contents p {
+  margin-top: 1rem;
+  text-indent: auto;
+  letter-spacing: 1px;
+  background-color: white;
+}
+.controlBtn {
+  margin-top: 2rem;
+  background-color: white;
+  padding-left: 20.6rem;
+}
+.contentBox button {
+  margin-right: 1rem;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 20px;
+}
+.contentBox button:active {
+  transform: translateY(3px);
+  box-shadow: 7px 7px black 0.7;
+}
+.surpriseBtn {
+  margin: 1rem 0;
+}
+.surpriseBtn:active {
+  transform: translateY(5px);
+  box-shadow: 7px 7px black 0.7;
+}

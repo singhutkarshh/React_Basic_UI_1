@@ -1,0 +1,67 @@
+.expheading {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 2rem auto;
+  width: 10rem;
+  border-bottom: 3px solid rgb(34, 151, 180);
+}
+.expLinks {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.expLinks li {
+  margin-bottom: 1rem;
+  padding: 1px 5px;
+  width: 8rem;
+}
+.expLinks li:hover {
+  color: rgb(34, 151, 180);
+  border: 1px solid rgb(164, 208, 219);
+  border-left: 2px solid rgb(34, 151, 180);
+}
+.expInfo {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  border-left: 3px solid grey;
+  padding-left: 3rem;
+}
+.expInfo h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: blue;
+}
+.expInfo h4 {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(189, 186, 184);
+  width: 4.5rem;
+  padding: 2px 5px;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+.expInfo h5 {
+  font-size: 18px;
+  color: rgb(110, 106, 103);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.expInfo p {
+  display: flex;
+  margin-bottom: 1.5rem;
+  width: 40rem;
+  color: rgb(110, 106, 103);
+}
+.expInfo p h6 {
+  color: darkblue;
+  font-weight: 900;
+  margin-right: 1rem;
+  padding-top: 5px;
+}
+.expInfoBox {
+  display: flex;
+  margin-bottom: 6rem;
+}

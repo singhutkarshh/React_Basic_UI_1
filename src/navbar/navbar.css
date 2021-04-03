@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 4rem;
+}
+.navTitle {
+  color: rgb(76, 76, 228);
+  text-shadow: 0 1.4px black;
+}
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+}
+.navLinks li {
+  font-size: 18px;
+  margin-left: 1rem;
+}
+.navLinks li a {
+  text-decoration: unset;
+  color: rgb(87, 81, 81);
+}
+.navSocial {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5rem;
+}
+.navSocial li {
+  margin-right: 1rem;
+  font-size: 24px;
+}
+.navSocial li a i {
+  color: rgb(76, 76, 228);
+}

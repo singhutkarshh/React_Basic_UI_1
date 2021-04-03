@@ -1,0 +1,64 @@
+.Menu {
+  background-color: rgb(230, 230, 235);
+}
+.menuHeader {
+  font-size: 30px;
+  width: 5rem;
+  margin: 4rem auto;
+  border-bottom: 3px solid rgba(180, 95, 16, 0.753);
+  padding-top: 3rem;
+}
+.menuList ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 28rem;
+}
+.menuList ul li {
+  font-size: 29px;
+  margin-left: 4rem;
+  list-style: none;
+  color: rgba(180, 95, 16, 0.753);
+}
+.menuList ul li a {
+  padding: 1px 5px;
+}
+.menuList ul li a:hover {
+  background-color: rgba(180, 95, 16, 0.753);
+  color: white;
+  border-radius: 10px;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  margin-left: 8rem;
+  float: left;
+}
+.menuItems img {
+  width: 14rem;
+  height: 10rem;
+  border: 2px solid rgba(180, 95, 16, 0.753);
+}
+.menuItems div ul {
+  margin-top: 1rem;
+  margin-left: -3rem;
+}
+.menuItems div ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.menuItems div ul li:first-child {
+  color: black;
+  font-weight: 600;
+}
+.menuItems div p {
+  margin-top: 1rem;
+  display: block;
+  width: 20rem;
+  margin-left: 1rem;
+}
+.menuBox {
+  display: inline-block;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
